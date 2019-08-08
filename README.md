@@ -21,6 +21,10 @@ When printing in the .csv file, it creates two more columns under the following 
    * New Description.
     
 The .csv file, named as ParsedXML.csv will have the following attributes in this order:
+   * Name of the file parsing
+   
+   For each of the <Scope>, it prints the following attributes:
+   
    * Name	
    * Scope ID	
    * New Name	
