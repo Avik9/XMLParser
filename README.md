@@ -1,9 +1,6 @@
 # XMLParser
 
-This is an XML Parser that reads DHCP files that are downloaded. It takes a directory as an input and reads all the .xml files in that specific directory. After reading them, it creates a temp .xml file and then stores the following attributes into a .csv file:
-   * Name of the file parsing
-   
-   For each of the <Scope>, it prints the following attributes:
+This is an XML Parser that reads DHCP files that are downloaded. It takes a directory as an input and reads all the .xml files in that specific directory. After reading them, it creates a temp .xml file and then stores the following attributes into a .csv file for each of the `<Scope>`:
    
    * Name
    * Start Range
@@ -39,3 +36,5 @@ The .csv file, named as ParsedXML.csv will have the following attributes in this
    * New Description
 
 A Sample XML file, labeled as Sample.xml, has been provided along with the .csv file, labeled as Sample.csv, has been provided for reference. 
+
+The Parsed.csv file also saves the title of each file that is parsed in the given directory. 
